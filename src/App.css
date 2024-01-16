@@ -85,3 +85,20 @@ main {
   column-gap: 0.5rem;
   row-gap: 0.5rem;
 }
+
+@media (max-width: 620px) {
+  .products-grid {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+  .side-panel {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .products-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

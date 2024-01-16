@@ -95,7 +95,12 @@ function App() {
       );
 
       if (change.length === 0) {
-        return <p>Change: 0</p>;
+        return (
+          <>
+            <p>Change: 0</p>
+            <p>Thanks for your purchase!</p>
+          </>
+        );
       }
       return (
         <>
@@ -105,6 +110,7 @@ function App() {
               [x{coin.amount}] {formatMoney(coin.value)}
             </p>
           ))}
+          <p>Thanks for your purchase!</p>
         </>
       );
     }
