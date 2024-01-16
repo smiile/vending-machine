@@ -1,0 +1,34 @@
+.product-item {
+  color: #f7f7ff;
+  background: #c03221;
+  border: 3px solid #f7f7ff;
+  border-radius: 4px;
+  aspect-ratio: 1;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background: #c03221ed;
+  }
+
+  .title {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .price {
+    font-size: 0.9em;
+    color: lightgreen;
+    font-weight: bold;
+  }
+
+  .availability {
+    font-size: 0.75em;
+    text-align: right;
+  }
+}

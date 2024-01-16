@@ -3,62 +3,62 @@
     {
       "id": "1",
       "name": "Coca Cola",
-      "quantity": "12",
-      "price": "1.25"
+      "quantity": 12,
+      "price": 1.25
     },
     {
       "id": "2",
       "name": "Chugg: 72hrs Energy",
-      "quantity": "15",
-      "price": "2.72"
+      "quantity": 15,
+      "price": 2.72
     },
     {
       "id": "3",
       "name": "Snickers",
-      "quantity": "3",
-      "price": "1.69"
+      "quantity": 3,
+      "price": 1.69
     },
     {
       "id": "4",
       "name": "Kat Kat",
-      "quantity": "5",
-      "price": "1.89"
+      "quantity": 5,
+      "price": 1.89
     },
     {
       "id": "5",
       "name": "Cheetos",
-      "quantity": "3",
-      "price": "4.20"
+      "quantity": 3,
+      "price": 4.2
     },
     {
       "id": "6",
       "name": "Munchos",
-      "quantity": "14",
-      "price": "2.40"
+      "quantity": 14,
+      "price": 2.4
     },
     {
       "id": "7",
       "name": "Ruffles",
-      "quantity": "12",
-      "price": "4.20"
-    },
-    {
-      "id": "7",
-      "name": "L&L's",
-      "quantity": "10",
-      "price": "3.14"
+      "quantity": 12,
+      "price": 3.2
     },
     {
       "id": "8",
-      "name": "Choomba Sunflower Seeds",
-      "quantity": "9",
-      "price": "0.75"
+      "name": "L&L's",
+      "quantity": 10,
+      "price": 3.14
     },
     {
       "id": "9",
+      "name": "Choomba Sunflower Seeds",
+      "quantity": 9,
+      "price": 0.75
+    },
+    {
+      "id": "10",
       "name": "Center Shock",
-      "quantity": "1",
-      "price": "0.25"
+      "quantity": 1,
+      "price": 0.25
     }
   ]
 }
