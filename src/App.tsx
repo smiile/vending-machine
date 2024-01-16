@@ -96,22 +96,22 @@ function App() {
 
       if (change.length === 0) {
         return (
-          <>
+          <div className="paid-bill-message">
             <p>Change: 0</p>
             <p>Thanks for your purchase!</p>
-          </>
+          </div>
         );
       }
       return (
-        <>
+        <div className="paid-bill-message">
           <p>Change:</p>
           {change.map((coin) => (
             <p>
-              [x{coin.amount}] {formatMoney(coin.value)}
+              [{coin.amount}x] {formatMoney(coin.value)}
             </p>
           ))}
           <p>Thanks for your purchase!</p>
-        </>
+        </div>
       );
     }
     return "";
@@ -180,13 +180,13 @@ function App() {
           ))}
         </div>
         <div className="log-display">
+          {displayChange()}
           <p>Bill: {formatMoney(bill)}</p>
           {basket.map((product) => (
             <p key={product.id}>
               [{product.quantity}x] {product.name} {formatMoney(product.price)}
             </p>
           ))}
-          {displayChange()}
         </div>
         <button
           className="reset"
