@@ -9,3 +9,5 @@
 5. Notice the gears icon on the bottom right corner - it opens the admin panel
 
 The accepted coin denominations are the ones of the Euro - they're illustrated in the vending machine itself. Either select products first or put coins first. The moment the provided money cover for the selected products - the bill is paid and change is returned (just like in real vending machines). At that point, if you want to make another purchase, you have to press "Reset".
+
+![](assets/20240117_162502_Screenshot_2024-01-17_16-22-14.png)
