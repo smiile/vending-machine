@@ -1,0 +1,76 @@
+.side-panel {
+  grid-area: right-side;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 0.7rem;
+
+  .providedAmount {
+    padding: 0.25rem 1rem;
+    background: lightgreen;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .log-display {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #f7f7ff;
+    background: #0404048a;
+    padding: 0.6rem;
+    height: 280px;
+    overflow: auto;
+
+    .paid-bill-message {
+      color: lightgreen;
+    }
+  }
+
+  .coins {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.25rem;
+    cursor: pointer;
+    img:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .reset {
+    font-family: "Press Start 2P", system-ui;
+    background: chocolate;
+    height: 2rem;
+    cursor: pointer;
+    &:hover {
+      background: rgb(237, 127, 49);
+    }
+  }
+}
+
+.products-grid {
+  grid-area: left-side;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  align-content: baseline;
+}
+
+@media (max-width: 620px) {
+  .products-grid {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+  .side-panel {
+    grid-column: span 2;
+    grid-row: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .products-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

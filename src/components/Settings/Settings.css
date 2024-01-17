@@ -1,0 +1,26 @@
+.product-settings {
+  color: white;
+  button,
+  input[type="submit"] {
+    width: max-content;
+    padding: 0.1rem 0.2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.5rem;
+
+    .form-control {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
